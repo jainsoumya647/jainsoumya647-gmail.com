@@ -118,6 +118,40 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
         </scene>
+        <!--Web View-->
+        <scene sceneID="RwS-xO-TVO">
+            <objects>
+                <viewController storyboardIdentifier="WebView" id="mwQ-Hi-9Ka" customClass="WebView" customModule="McKinley_Rice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQL-Np-DWR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8x-5f-6CB">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C8x-5f-6CB" firstAttribute="leading" secondItem="G1c-lN-y4H" secondAttribute="leading" id="BCf-u0-tTe"/>
+                            <constraint firstItem="G1c-lN-y4H" firstAttribute="trailing" secondItem="C8x-5f-6CB" secondAttribute="trailing" id="FHI-U9-deh"/>
+                            <constraint firstItem="G1c-lN-y4H" firstAttribute="bottom" secondItem="C8x-5f-6CB" secondAttribute="bottom" id="i8v-Dd-BhW"/>
+                            <constraint firstItem="C8x-5f-6CB" firstAttribute="top" secondItem="G1c-lN-y4H" secondAttribute="top" id="klD-Xn-2nV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G1c-lN-y4H"/>
+                    </view>
+                    <connections>
+                        <outlet property="webViewKit" destination="C8x-5f-6CB" id="Zdm-0i-B84"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VFy-d8-rxy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="130"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NRe-wP-GtB">
             <objects>
@@ -134,37 +168,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZH-kJ-BjG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
-        </scene>
-        <!--Web View-->
-        <scene sceneID="qpj-Hi-1Tr">
-            <objects>
-                <viewController storyboardIdentifier="WebView" id="5ZR-x2-r6l" customClass="WebView" customModule="True_Drops" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rsa-w0-9HD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVz-Hm-S2o">
-                                <rect key="frame" x="0.0" y="114" width="414" height="748"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="t3Y-CG-eNh" firstAttribute="trailing" secondItem="BVz-Hm-S2o" secondAttribute="trailing" id="41z-hD-bl2"/>
-                            <constraint firstItem="BVz-Hm-S2o" firstAttribute="leading" secondItem="t3Y-CG-eNh" secondAttribute="leading" id="QqT-Kk-ska"/>
-                            <constraint firstItem="t3Y-CG-eNh" firstAttribute="bottom" secondItem="BVz-Hm-S2o" secondAttribute="bottom" id="vu7-xb-Z7Q"/>
-                            <constraint firstItem="BVz-Hm-S2o" firstAttribute="top" secondItem="t3Y-CG-eNh" secondAttribute="top" constant="70" id="y2M-1C-2Zf"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="t3Y-CG-eNh"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pV2-cm-sPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2086" y="130"/>
         </scene>
     </scenes>
 </document>

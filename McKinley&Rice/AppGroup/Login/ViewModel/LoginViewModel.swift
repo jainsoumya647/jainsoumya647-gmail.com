@@ -39,6 +39,7 @@ class LoginViewModel {
             switch result{
             case .success(let token):
                 print(token)
+                UserDefaults.set(token, forKey: .token)
                 self?.loginSuccess?(token)
             case .failure:
                 break

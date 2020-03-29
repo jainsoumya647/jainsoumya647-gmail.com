@@ -30,7 +30,11 @@ class LoginViewController: UIViewController {
 
     private func addObservers() {
         self.viewModel.loginSuccess = { [weak self] (token) in
-            print(token)
+            DispatchQueue.main.async {
+                if let vc = WebView.getController(token: token) {
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                }
+            }
         }
     }
     

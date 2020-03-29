@@ -13,7 +13,7 @@ enum Storyboard: String {
 }
 
 enum Controller: String {
-    case searchViewController = "SearchViewController"
+    case webView = "WebView"
 }
 
 struct ErrorMessage {
