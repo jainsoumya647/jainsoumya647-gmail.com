@@ -19,6 +19,9 @@ enum Controller: String {
 struct ErrorMessage {
     static let somethingWrong = "Something went wrong while executing."
     static let noInternetConnection = "No Internet!! Please check your connection and try again."
+    static let emailEmpty = "Please enter id."
+    static let validEmail = "Please enter a valid id."
+    static let passwordEmpty = "Please enter Password."
 }
 
 enum ResponseError: Error {

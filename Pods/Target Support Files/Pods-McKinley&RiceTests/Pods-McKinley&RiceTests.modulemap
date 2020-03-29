@@ -1,0 +1,6 @@
+framework module Pods_McKinley_RiceTests {
+  umbrella header "Pods-McKinley&RiceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

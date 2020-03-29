@@ -15,10 +15,17 @@ struct Login {
     func validateIdAndPassword() -> Bool {
         
         guard !self.id.isEmpty else {
+            Utility.showOkAlert(message: ErrorMessage.emailEmpty)
+            return false
+        }
+        
+        guard self.id.isValidEmail() else {
+            Utility.showOkAlert(message: ErrorMessage.validEmail)
             return false
         }
         
         guard !self.password.isEmpty else {
+            Utility.showOkAlert(message: ErrorMessage.passwordEmpty)
             return false
         }
         

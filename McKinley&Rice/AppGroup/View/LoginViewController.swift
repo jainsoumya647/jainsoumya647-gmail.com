@@ -25,13 +25,25 @@ class LoginViewController: UIViewController {
     
     private func setupInitialData() {
         self.viewModel = LoginViewModel()
+        self.addObservers()
     }
 
+    private func addObservers() {
+        self.viewModel.loginSuccess = { [weak self] (token) in
+            print(token)
+        }
+    }
+    
     private func setupViews() {
         self.idTextField.delegate = self
         self.passwordTextField.delegate = self
         self.loginButton.configureThemeButton(text: "LOGIN")
     }
+    
+    @IBAction func loginAction(_ sender: Any) {
+        self.viewModel.login()
+    }
+    
 }
 
 extension LoginViewController: UITextFieldDelegate {
