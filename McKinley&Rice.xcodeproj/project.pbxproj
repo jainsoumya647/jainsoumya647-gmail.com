@@ -16,6 +16,25 @@
 		EF0D2AC224311E8800E4CD91 /* McKinley_RiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AC124311E8800E4CD91 /* McKinley_RiceTests.swift */; };
 		EF0D2ACD24311E8800E4CD91 /* McKinley_RiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2ACC24311E8800E4CD91 /* McKinley_RiceUITests.swift */; };
 		EF0D2ADE2431216100E4CD91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2ADD2431216100E4CD91 /* LoginViewController.swift */; };
+		EF0D2AE1243126BE00E4CD91 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AE0243126BE00E4CD91 /* LoginModel.swift */; };
+		EF0D2AE32431277200E4CD91 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AE22431277200E4CD91 /* LoginViewModel.swift */; };
+		EF0D2AF324312A8800E4CD91 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AE724312A8800E4CD91 /* Environment.swift */; };
+		EF0D2AF424312A8800E4CD91 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AE924312A8800E4CD91 /* ParameterEncoding.swift */; };
+		EF0D2AF524312A8800E4CD91 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AEA24312A8800E4CD91 /* URLParameterEncoder.swift */; };
+		EF0D2AF624312A8800E4CD91 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AEB24312A8800E4CD91 /* JSONParameterEncoder.swift */; };
+		EF0D2AF724312A8800E4CD91 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AED24312A8800E4CD91 /* HTTPTask.swift */; };
+		EF0D2AF824312A8800E4CD91 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AEE24312A8800E4CD91 /* HTTPMethod.swift */; };
+		EF0D2AF924312A8800E4CD91 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AEF24312A8800E4CD91 /* EndPointType.swift */; };
+		EF0D2AFA24312A8800E4CD91 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AF124312A8800E4CD91 /* NetworkService.swift */; };
+		EF0D2AFB24312A8800E4CD91 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AF224312A8800E4CD91 /* NetworkLogger.swift */; };
+		EF0D2AFE24312BA600E4CD91 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AFD24312BA600E4CD91 /* LoginService.swift */; };
+		EF0D2B0024312BE800E4CD91 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2AFF24312BE800E4CD91 /* LoginResponse.swift */; };
+		EF0D2B0424312E3E00E4CD91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0324312E3E00E4CD91 /* Constants.swift */; };
+		EF0D2B0624312E9000E4CD91 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0524312E9000E4CD91 /* Utility.swift */; };
+		EF0D2B0824312EBE00E4CD91 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0724312EBE00E4CD91 /* UIApplication+Extension.swift */; };
+		EF0D2B0A24312EF900E4CD91 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0924312EF900E4CD91 /* UIViewController+Extension.swift */; };
+		EF0D2B0C2431316F00E4CD91 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0B2431316F00E4CD91 /* UIButton+Extension.swift */; };
+		EF0D2B0E2431323D00E4CD91 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D2B0D2431323D00E4CD91 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +70,25 @@
 		EF0D2ACC24311E8800E4CD91 /* McKinley_RiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKinley_RiceUITests.swift; sourceTree = "<group>"; };
 		EF0D2ACE24311E8800E4CD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0D2ADD2431216100E4CD91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF0D2AE0243126BE00E4CD91 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		EF0D2AE22431277200E4CD91 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EF0D2AE724312A8800E4CD91 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		EF0D2AE924312A8800E4CD91 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EF0D2AEA24312A8800E4CD91 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		EF0D2AEB24312A8800E4CD91 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		EF0D2AED24312A8800E4CD91 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		EF0D2AEE24312A8800E4CD91 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		EF0D2AEF24312A8800E4CD91 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		EF0D2AF124312A8800E4CD91 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EF0D2AF224312A8800E4CD91 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		EF0D2AFD24312BA600E4CD91 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		EF0D2AFF24312BE800E4CD91 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		EF0D2B0324312E3E00E4CD91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF0D2B0524312E9000E4CD91 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		EF0D2B0724312EBE00E4CD91 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		EF0D2B0924312EF900E4CD91 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EF0D2B0B2431316F00E4CD91 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		EF0D2B0D2431323D00E4CD91 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +139,9 @@
 		EF0D2AA624311E8300E4CD91 /* McKinley&Rice */ = {
 			isa = PBXGroup;
 			children = (
+				EF0D2AFC24312B8C00E4CD91 /* ServiceLayer */,
+				EF0D2AE624312A8800E4CD91 /* Networking */,
+				EF0D2AE424312A5000E4CD91 /* Helper */,
 				EF0D2ADA2431212F00E4CD91 /* AppGroup */,
 				EF0D2AA724311E8300E4CD91 /* AppDelegate.swift */,
 				EF0D2AA924311E8300E4CD91 /* SceneDelegate.swift */,
@@ -134,6 +175,7 @@
 		EF0D2ADA2431212F00E4CD91 /* AppGroup */ = {
 			isa = PBXGroup;
 			children = (
+				EF0D2ADF243126A900E4CD91 /* Model */,
 				EF0D2ADC2431213E00E4CD91 /* ViewModel */,
 				EF0D2ADB2431213600E4CD91 /* View */,
 			);
@@ -151,8 +193,95 @@
 		EF0D2ADC2431213E00E4CD91 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EF0D2AE22431277200E4CD91 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF0D2ADF243126A900E4CD91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AE0243126BE00E4CD91 /* LoginModel.swift */,
+				EF0D2AFF24312BE800E4CD91 /* LoginResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF0D2AE424312A5000E4CD91 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2B0124312E2700E4CD91 /* Constants */,
+				EF0D2AE524312A5800E4CD91 /* Extensions */,
+				EF0D2B0524312E9000E4CD91 /* Utility.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EF0D2AE524312A5800E4CD91 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2B0724312EBE00E4CD91 /* UIApplication+Extension.swift */,
+				EF0D2B0924312EF900E4CD91 /* UIViewController+Extension.swift */,
+				EF0D2B0B2431316F00E4CD91 /* UIButton+Extension.swift */,
+				EF0D2B0D2431323D00E4CD91 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF0D2AE624312A8800E4CD91 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AE724312A8800E4CD91 /* Environment.swift */,
+				EF0D2AE824312A8800E4CD91 /* Encoding */,
+				EF0D2AEC24312A8800E4CD91 /* Endpoint */,
+				EF0D2AF024312A8800E4CD91 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EF0D2AE824312A8800E4CD91 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AE924312A8800E4CD91 /* ParameterEncoding.swift */,
+				EF0D2AEA24312A8800E4CD91 /* URLParameterEncoder.swift */,
+				EF0D2AEB24312A8800E4CD91 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		EF0D2AEC24312A8800E4CD91 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AED24312A8800E4CD91 /* HTTPTask.swift */,
+				EF0D2AEE24312A8800E4CD91 /* HTTPMethod.swift */,
+				EF0D2AEF24312A8800E4CD91 /* EndPointType.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		EF0D2AF024312A8800E4CD91 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AF124312A8800E4CD91 /* NetworkService.swift */,
+				EF0D2AF224312A8800E4CD91 /* NetworkLogger.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EF0D2AFC24312B8C00E4CD91 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2AFD24312BA600E4CD91 /* LoginService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		EF0D2B0124312E2700E4CD91 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D2B0324312E3E00E4CD91 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +415,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0D2AFB24312A8800E4CD91 /* NetworkLogger.swift in Sources */,
+				EF0D2AF624312A8800E4CD91 /* JSONParameterEncoder.swift in Sources */,
+				EF0D2AE1243126BE00E4CD91 /* LoginModel.swift in Sources */,
+				EF0D2B0C2431316F00E4CD91 /* UIButton+Extension.swift in Sources */,
+				EF0D2AF924312A8800E4CD91 /* EndPointType.swift in Sources */,
 				EF0D2ADE2431216100E4CD91 /* LoginViewController.swift in Sources */,
+				EF0D2AF424312A8800E4CD91 /* ParameterEncoding.swift in Sources */,
+				EF0D2B0624312E9000E4CD91 /* Utility.swift in Sources */,
+				EF0D2AE32431277200E4CD91 /* LoginViewModel.swift in Sources */,
+				EF0D2AFE24312BA600E4CD91 /* LoginService.swift in Sources */,
+				EF0D2AFA24312A8800E4CD91 /* NetworkService.swift in Sources */,
+				EF0D2AF324312A8800E4CD91 /* Environment.swift in Sources */,
 				EF0D2AB224311E8300E4CD91 /* McKinley_Rice.xcdatamodeld in Sources */,
+				EF0D2AF724312A8800E4CD91 /* HTTPTask.swift in Sources */,
+				EF0D2AF824312A8800E4CD91 /* HTTPMethod.swift in Sources */,
 				EF0D2AA824311E8300E4CD91 /* AppDelegate.swift in Sources */,
 				EF0D2AAA24311E8300E4CD91 /* SceneDelegate.swift in Sources */,
+				EF0D2B0E2431323D00E4CD91 /* UIColor+Extension.swift in Sources */,
+				EF0D2B0024312BE800E4CD91 /* LoginResponse.swift in Sources */,
+				EF0D2AF524312A8800E4CD91 /* URLParameterEncoder.swift in Sources */,
+				EF0D2B0A24312EF900E4CD91 /* UIViewController+Extension.swift in Sources */,
+				EF0D2B0824312EBE00E4CD91 /* UIApplication+Extension.swift in Sources */,
+				EF0D2B0424312E3E00E4CD91 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
